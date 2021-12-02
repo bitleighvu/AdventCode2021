@@ -2,6 +2,7 @@ import data from './depths.json';
 
 const depths = data.depths;
 
+// first puzzle
 function countingDepth(depths) {
     var count = 0;
     for (var i = 1; i < depths.length; i++) {
@@ -14,6 +15,7 @@ function countingDepth(depths) {
 
 console.log(countingDepth(depths)); 
 
+// second puzzle 
 function slidingWindow(depths) {
     var count = 0;
     for (var i = 2; i < depths.length; i++) {
